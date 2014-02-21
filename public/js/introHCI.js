@@ -9,7 +9,8 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$('.project a').click(function(e) {
+	$('.project a').click(function(e) 
+	{
 		// Prevent following the link
 		e.preventDefault();
 
